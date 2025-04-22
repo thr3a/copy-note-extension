@@ -4,10 +4,11 @@
 タスク実行前にかならず package.json を参照すること
 
 - コード整形・静的解析は biome.json の設定に従うこと
+- TypeScript（.ts, .tsx）を使用すること
+- webextension-polyfillを使用しているのでchromeではなくbrowserで実装する
 - 可能な限り型安全な実装を心がける
 - 変数・関数・型名はキャメルケース、クラス名はパスカルケースを使用
 - コメントは日本語で簡潔に記述
-- TypeScript（.ts, .tsx）を使用すること
 - src/ 配下に全てのソースコードを配置
   - popup/ : ポップアップUI関連
   - icons/ : 拡張機能アイコン
