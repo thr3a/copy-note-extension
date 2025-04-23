@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "node esbuild.js",
-    "chrome": "web-ext run -s dist -t chromium --start-url https://example.com/",
+    "chrome": "web-ext run -s dist -t chromium --start-url https://note.com/prettyfish/n/nd24b93813c85",
     "lint": "biome check --write src",
     "build": "NODE_ENV=production node esbuild.js"
   },
